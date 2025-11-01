@@ -1,3 +1,58 @@
+# Lista de Tareas (React + Bootstrap)
+
+Aplicación de lista de tareas con filtros, orden por fecha, edición inline y paleta de colores dorado/gris/negro/blanco.
+
+## Requisitos
+
+- Node.js 18+ y npm 8+ (recomendado LTS)
+
+## Clonación
+
+```bash
+git clone https://github.com/RonaldoMeza/TaskList-React.git
+cd TaskList-React
+```
+
+## Instalación
+
+```bash
+npm install
+```
+
+## Ejecución en desarrollo
+
+```bash
+npm start
+```
+
+- Abre http://localhost:3000
+- Si el puerto 3000 está ocupado, libera el proceso o ejecuta en otro puerto: `set PORT=3001 && npm start`
+
+## Scripts útiles
+
+- `npm start`: ejecuta modo desarrollo.
+- `npm test`: ejecuta pruebas.
+- `npm run build`: genera build de producción en `build/`.
+
+## Construir para producción
+
+```bash
+npm run build
+```
+
+## Paleta de colores
+
+Los colores se configuran en `src/index.css` con variables CSS de Bootstrap:
+
+- Primario (dorado): `--bs-primary: #d4af37`
+- Secundario (gris): `--bs-secondary: #6c757d`
+- Oscuro (negro): `--bs-dark: #000000`
+- Claro (blanco): `--bs-light: #ffffff`
+
+Clases recomendadas: `btn-primary`, `btn-secondary`, `btn-dark`, `text-primary`, `bg-dark`, `text-light`.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
